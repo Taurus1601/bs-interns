@@ -110,7 +110,38 @@ const testLogoData = {
         className: `text-gray-700`,
         size: size,
       }),
-  }
+  },
+  engineering: {
+    logo: (size) =>
+      React.createElement(MdEngineering, {
+        className: `text-gray-700`,
+        size: size,
+      }),
+  },
+
+  brain: {
+    logo: (size) =>
+      React.createElement(BiSolidBrain, {
+        className: `text-gray-700`,
+        size: size,
+      }),
+  },
+
+  interest: {
+    logo: (size) =>
+      React.createElement(GiPaintBrush, {
+        className: `text-gray-700`,
+        size: size,
+      }),
+  },
+
+  iq: {
+    logo: (size) =>
+      React.createElement(RiLightbulbFlashFill, {
+        className: `text-gray-700`,
+        size: size,
+      }),
+  },
 };
 
 //Functions relating to tests are defined here. 

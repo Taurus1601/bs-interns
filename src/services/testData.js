@@ -167,7 +167,46 @@ const testMetaData = {
     icon: FaStethoscope,
     description:
       "Evaluate your interests and preferences on various medical fields and specialties",
-  }
+  },
+  upcoming_test_1: {
+    queryCode: "upcoming_test_",
+    name: "upcoming test 1",
+    displayType: "slider",
+    evaluationType: "weighted-aggregation",
+    icon: MdEngineering,
+    description:
+      "Discover which branch of engineering aligns with your interests and strengths",
+  },
+
+  upcoming_test_2: {
+    queryCode: "upcoming_test_",
+    name: "upcoming test 2",
+    displayType: "mcq",
+    evaluationType: "aggregation",
+    icon: BiSolidBrain,
+    description:
+      "Explore your cognitive strengths and discover your dominant brain hemisphere",
+  },
+
+  upcoming_test_3: {
+    queryCode: "upcoming_test_",
+    name: "upcoming test 3",
+    displayType: "mcq",
+    evaluationType: "aggregation",
+    icon: GiPaintBrush,
+    description:
+      "Uncover your passions and interests to guide your career and personal pursuits",
+  },
+
+  upcoming_test_4: {
+    queryCode: "upcoming_test_",
+    name: "upcoming test 4",
+    displayType: "img-mcq",
+    evaluationType: "single-option",
+    icon: RiLightbulbFlashFill,
+    description:
+      "Measure your cognitive abilities and explore your intellectual potential",
+  },
 };
 
 const testStaticContent = {
